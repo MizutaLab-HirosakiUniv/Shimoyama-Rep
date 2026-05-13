@@ -1,0 +1,99 @@
+\documentclass[a4paper,english,uplatex,dvipdfmx]{jsarticle}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsmath,amssymb}
+\usepackage{authblk}
+\usepackage{physics}
+\usepackage{siunitx}
+\usepackage{algorithm}
+\usepackage{enumitem}
+%\usepackage{threeparttable}
+%\usepackage[unicode,hidelinks,pdfusetitle]{hyperref}
+%\usepackage{algpseudocodex}
+%\usepackage{newtxtext,newtxmath}
+% \usepackage{tikz}
+% \usetikzlibrary{
+%   angles,
+%   circuits.ee.IEC,
+%   arrows.meta,
+%   positioning,
+% }
+
+\title{Title}
+\author{自分の氏名}
+\author{Satoshi Mizuta}
+
+\affil{Graduate School of Science and Technology, Hirosaki University, \\
+  3 Bunkyo-cho, Hirosaki-city, Aomori 036-8561, Japan}
+
+\date{}
+%%
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  研究の目的、方法、結果について、その概要を1段落にまとめる。ここでは参考文献は引用しない。
+\end{abstract}
+
+%=========================================================================
+\section{Introduction}
+\label{sec:introduction}
+%=========================================================================
+
+研究の背景や目的・動機、関連した研究の結果、について述べる。
+
+%===========================================================
+\section{Dataset and Methods}
+%===========================================================
+\label{sec:methods}
+
+% --------------------------------------------------------
+\subsection{Dataset}
+% --------------------------------------------------------
+\label{sec:dataset}
+
+研究に用いたデータについて、選択した理由、取得先、取得した時期、その他論文を読んだ人が入手するのに必要な情報も含めて記述する。
+
+% --------------------------------------------------------
+\subsection{Methods}
+% --------------------------------------------------------
+\label{sec:methods}
+
+\begin{itemize}
+\item 方法について、原則として論文を読んだ人が再現することができる程度に詳しく記述する。
+\item 図になる部分は極力、図を用いた説明を加える。
+\end{itemize}
+
+%===========================================================
+\section{Results and Discussions}
+%===========================================================
+\label{sec:results}
+
+結果とその結果に対する議論について述べる。
+
+%===========================================================
+\section{Conclusions}
+%===========================================================
+\label{sec:conclusions}
+
+何をしたか、その結果何が得られた、今後の課題や展望について述べる。
+
+%===========================================================
+%% 参考文献（BibTeX を用いる）
+%===========================================================
+\bibliography{citations}
+\bibliographystyle{junsrt}
+
+% %===========================================================
+% \section*{Acknowledgment}
+% %===========================================================
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: japanese-latex
+%%% TeX-master: t
+%%% End: 
